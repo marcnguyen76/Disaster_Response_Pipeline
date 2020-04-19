@@ -47,8 +47,8 @@ def index():
     cat_sum = list(categories_sum)
     top_name = cat_name[:5]
     top_sum = cat_sum[:5]
+    
     # create visuals
-
     graphs = [
         {
             'data': [
@@ -82,7 +82,7 @@ def index():
                     'title': "Count"
                 },
                 'xaxis': {
-                    'title': "Category"
+                    'title': "Categories"
                 }
             }
         },
@@ -100,7 +100,7 @@ def index():
                     'title': "Count"
                 },
                 'xaxis': {
-                    'title': "Category"
+                    'title': "Categories"
                 }
             }
         }
