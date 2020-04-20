@@ -23,6 +23,7 @@ Builds a text processing and machine learning pipeline
 Trains and tunes a model using GridSearchCV
 Outputs results on the test set
 Exports the final model as a pickle file
+
 3. Flask Web App
 Web app that categories messages and provides visualization of the count of each category and the top five categories and its values. 
 
